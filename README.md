@@ -5,3 +5,5 @@ With application you can register and login users. You can update your profile b
 You can create, read, update and delete blogs. For creating, updating and deleting you also need to be logged in.
 
 Flask restful is also implemented for practice so you can get users by username or all users by any API platform.
+
+This was my first bigger project and I didnt implement virtual enviroment so in requirements.txt I have entire abse requirement.
