@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+<div class="jumbotron">
+  <h1>Here is the list of all registered users</h1>
+  <div class="container">
+    <ul>
+      {% for user in all_users %}
+      <li>
+        <a href="{{url_for('users.user_posts',username=user.username)}}"
+          >{{user}}</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
